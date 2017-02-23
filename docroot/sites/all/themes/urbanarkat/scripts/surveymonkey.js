@@ -1,0 +1,3 @@
+setTimeout(function() {
+(function(e,t,n,o){var s,c,i;e.SMCX=e.SMCX||[],t.getElementById(o)||(s=t.getElementsByTagName(n),c=s[s.length-1],i=t.createElement(n),i.type="text/javascript",i.async=!0,i.id=o,i.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/TgFLRlBdInyrvIkeeVBWfu6auCz8Dh_2FP_2FxC9iUfGnNjd33Y04MkxiP1F_2B1gMJa_2B9.js"].join(""),c.parentNode.insertBefore(i,c))})(window,document,"script","smcx-sdk");
+}, 6000);

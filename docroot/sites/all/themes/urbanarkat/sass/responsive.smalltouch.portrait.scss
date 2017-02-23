@@ -1,0 +1,132 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the default font size on small touch devices */
+body {
+  font-size: 100%;
+}
+
+/* =============================================================================
+ *   Mobile Menu Toggle
+ *   See your theme settings extensions for how to enable the menu toggle.
+ *   These are example styles for the menu toggle menu, you can use these in the
+ *   relevant responsive stylesheets as required. Modify to suit your design.
+ * ========================================================================== */
+.at-mt .at-menu-toggle {
+  /* The toggle link */
+  h2 {
+    margin-bottom: 5px;
+	a {
+      background-color: $page;
+      border: 2px solid #ccc;
+      padding: 2px 10px;
+	  color: $darkyellow;
+	  font-family: fontawesome;
+	  visibility: hidden;
+	  &:before {
+		  content:"\f0c9 ";
+		  visibility: visible;
+	  }
+	  &:active, &:hover {
+		  color: $dark;
+		  text-decoration: none;
+    	}
+	}
+  }
+
+  /* Menu items */
+    ul.menu {
+	  background-color: $page;
+  	
+	li {
+		padding-left: 10px;
+		a {
+			background-color: $page;
+			border-bottom: 1px solid $ultralight !important;
+			color: $dark;
+		}
+		a.menu-401 {
+			padding-left: 0;
+			text-indent: 0;
+		}
+	}
+  	}
+  }
+
+/* Search form in nav area */
+#edit-search-block-form--2 {
+	margin-top: -80px;
+}
+
+.views-exposed-form .views-exposed-widget {
+    max-width: 100%;
+}
+
+/* Fix for home icon */
+#block-system-main-menu	.first a {
+		width: 100%;
+}
+
+#site-name {
+	white-space: nowrap;
+	max-width: 200px;
+	a {
+		visibility: hidden;
+		&:before {
+			visibility: visible;
+			content: "Urban ARK";
+		}
+	}
+}
+
+#leaderboard-wrapper .container {
+	/* width: 95%; */
+}
+
+.region-leaderboard #block-search-form {
+	max-width: 200px;
+}
+
+	
+#block-block-8,
+#block-views-home-block-2 {
+	width: 100%;
+}
+
+table.views-view-grid.cols-1 td,
+table.views-view-grid.cols-2 td,
+table.views-view-grid.cols-3 td,
+table.views-view-grid.cols-4 td, 
+table.views-view-grid.cols-5 td,
+table.views-view-grid.cols-6 td {
+	width: 95%;
+}
+
+.view-id-city_cases .flex-caption {
+	display: none;
+}
+
+#block-block-6 {
+	margin: auto;
+	text-align: center
+}
+
+.logoleft,
+.logoright {
+	float: none;
+}
+
+#block-block-11 {
+	display: none;
+}

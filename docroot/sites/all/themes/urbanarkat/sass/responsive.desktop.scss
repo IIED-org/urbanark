@@ -1,0 +1,60 @@
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+#nav-wrapper {
+  &.fixed {
+	  top: 0;
+	  left: 0;
+	  position:fixed !important;
+	  width: 100%;
+	  z-index: 9999;
+	  background-color: $page;
+  }	
+}
+
+#main-content {
+	margin-right: $gutter-width + 50;
+}
+
+table.views-view-grid.cols-1 td { width: 95%; }
+table.views-view-grid.cols-2 td { width: 45%; }
+table.views-view-grid.cols-3 td { width: 30%; }
+table.views-view-grid.cols-4 td { width: 21%; }
+table.views-view-grid.cols-5 td { width: 16%; }
+table.views-view-grid.cols-6 td { width: 13%; }
+
+#block-block-8,
+#block-views-home-block-2 {
+	min-height: 286px;
+}
+
+.block-menu.menu-wrapper a {
+	padding-right:17px;
+	font-size: 85%;
+}
+
+.text {
+	line-height: 2em;
+    padding-top: 1.6em;
+}
+
+.logoleft {
+	float: left;
+	padding-right: 20px;
+}
+
+.logoright {
+	float: right;
+	padding-left: 20px;
+}
