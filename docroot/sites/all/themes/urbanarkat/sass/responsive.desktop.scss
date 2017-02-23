@@ -41,7 +41,10 @@ table.views-view-grid.cols-6 td { width: 13%; }
 
 .block-menu.menu-wrapper a {
 	padding-right:17px;
-	font-size: 85%;
+}
+
+#block-system-main-menu a {
+  font-size: 85% !important;
 }
 
 .text {
