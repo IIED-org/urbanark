@@ -285,6 +285,8 @@ $drupal_hash_salt = 'uvNMc7Uod9xpKvxr2t_qO2__dE_M3yINpGRW3K6SM1I';
 /* Uncomment next three lines to add base_url after DNS update */
 if (isset($_ENV['AH_SITE_ENVIRONMENT']) && $_ENV['AH_SITE_ENVIRONMENT'] === 'prod') { 
   $base_url = 'https://www.urbanark.org';
+  $conf['acquia_purge_https'] = TRUE;
+  $conf['acquia_purge_http'] = FALSE;
 }
 
 /**
