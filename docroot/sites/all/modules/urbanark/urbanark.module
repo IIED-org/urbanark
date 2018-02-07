@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Code for the UrbanARK Search feature.
+ */
+
+/**
+ * Implementation of hook_form_FORM_ID_alter()
+ */
+ /**
+* hook_form_FORM_ID_alter
+*/
+
+ function urbanark_form_alter(&$form, &$form_state, $form_id) {
+ if($form_id=='search_api_page_search_form_default') {    
+  $form['keys_1']['#title'] = t('Search Urban ARK'); // Change the text on the label
+  $form['keys_1']['#title_display'] = 'invisible'; // Toggle label visibilty
+  $form['keys_1']['#size'] = 20;  // define size of the textfield
+  // Alternative (HTML5) placeholder attribute instead of using the javascript
+  $form['keys_1']['#attributes']['placeholder'] = t('Search Urban ARK');
+  $form_state['rebuild'] = TRUE;
+}
+}
