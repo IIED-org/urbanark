@@ -1483,11 +1483,11 @@ ul.action-links {
 /*
  * "Main menu" block
  */
-.block-menu.menu-wrapper {
+.block-menu.menu-wrapper, .block-superfish.menu-wrapper {
 	a {
 		font-weight: 700;
 		font-size: 1.2em;
-		padding: 0 1em 0 0;
+		padding: 0 1.2em 0 0;
 		line-height: 2.5em;
 		text-transform: uppercase;
 	}
@@ -1499,6 +1499,10 @@ ul.action-links {
 	}
 	.last a {
 		padding-right: 0;
+	}
+	.sf-sub-indicator {
+    	background: url(../../../libraries/superfish/images/arrows-777777.png) no-repeat -10px -100px;
+    	right:-1px;
 	}
 }
 
@@ -1820,7 +1824,7 @@ button, input[type="reset"], input[type="submit"], input[type="button"] {
 	width: 75%;
 }
 
-input[type="search"] {
+input[type="search"], input[type="text"] {
 	@extend #edit-search;
 	text-indent: 9px;
 	width: 10px;
@@ -1834,15 +1838,20 @@ input[type="search"] {
 	}
 }
 
-#search-block-form input[type="submit"] {
-	display: none;
+#search-block-form, #block-search-api-page-default {
+	input[type="submit"] {
+		display: none;
+	}
 }
 
 /* Search form in nav area */
-#edit-search-block-form--2 {
+#edit-search-block-form--2, #block-search-api-page-default {
 	margin-top: -60px;
 }
 
+.page-search #block-system-main h1 {
+	display: none;
+}
 
 /*
  * Define consistent borders
@@ -2186,6 +2195,19 @@ tr.error {
     text-decoration: none;
     padding: .5em;
     border: solid 1px $medium_light;
+    background-color: $darkyellow;
+    color:$page !important;
+    font-weight:bold;
+}
+
+/* Related resources block */
+
+#block-views-related-resources-block {
+	border-top: solid 1px $medium_light;
+	margin-top: 2em;
+	h2.block-title {
+		line-height: 2em;
+	}
 }
 
 /* Thumbnails */
@@ -2221,16 +2243,20 @@ tr.error {
   .field-name-cover-thumbnail,
   .field-name-field-cover-image, 
   .field-name-field-material-type, 
+  .field-name-content-type, 
   .field-name-field-no-of-pages,
   .field-name-field-author-s-,
+  .field-name-author,
   .field-name-field-file,
   .views-field-field-image
    {
      @extend .field-name-ds-user-picture;
   }
   .field-name-field-material-type, 
+  .field-name-content-type,
   .field-name-field-no-of-pages,
-  .field-name-field-author-s- {
+  .field-name-field-author-s-,
+  .field-name-author {
     width: auto !important;
   }
 }

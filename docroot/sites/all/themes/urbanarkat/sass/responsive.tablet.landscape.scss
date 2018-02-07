@@ -43,6 +43,12 @@ table.views-view-grid.cols-6 td { width: 13%; }
 	font-size: 85%;
 }
 
+#block-system-main-menu, #block-superfish-1, #block-superfish-2 {
+	a {
+  	font-size: 85% !important;
+	}
+}
+
 .text {
 	line-height: 2em;
 }

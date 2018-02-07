@@ -1,1 +1,89 @@
-#nav-wrapper.fixed{top:0;left:0;position:fixed !important;width:100%;z-index:9999;background-color:#fff}#main-content{margin-right:60px}table.views-view-grid.cols-1 td{width:95%}table.views-view-grid.cols-2 td{width:45%}table.views-view-grid.cols-3 td{width:30%}table.views-view-grid.cols-4 td{width:21%}table.views-view-grid.cols-5 td{width:16%}table.views-view-grid.cols-6 td{width:13%}#block-block-8,#block-views-home-block-2{min-height:286px}.block-menu.menu-wrapper a{padding-right:17px}#block-system-main-menu a{font-size:85% !important}.text{line-height:2em;padding-top:1.6em}.logoleft{float:left;padding-right:20px}.logoright{float:right;padding-left:20px}
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000316}}
+#nav-wrapper.fixed {
+  top: 0;
+  left: 0;
+  position: fixed !important;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000326}}
+#main-content {
+  margin-right: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000330}}
+table.views-view-grid.cols-1 td {
+  width: 95%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000331}}
+table.views-view-grid.cols-2 td {
+  width: 45%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000332}}
+table.views-view-grid.cols-3 td {
+  width: 30%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000333}}
+table.views-view-grid.cols-4 td {
+  width: 21%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000334}}
+table.views-view-grid.cols-5 td {
+  width: 16%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000335}}
+table.views-view-grid.cols-6 td {
+  width: 13%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000337}}
+#block-block-8,
+#block-views-home-block-2 {
+  min-height: 286px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000342}}
+.block-menu.menu-wrapper a {
+  padding-right: 17px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000347}}
+#block-system-main-menu a, #block-superfish-1 a, #block-superfish-2 a {
+  font-size: 85% !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000352}}
+.text {
+  line-height: 2em;
+  padding-top: 1.6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000357}}
+.logoleft {
+  float: left;
+  padding-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000362}}
+.logoright {
+  float: right;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=responsive.desktop.css.map */

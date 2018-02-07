@@ -1,1 +1,1945 @@
-html{background:#fff}body{font-family:Arial,Helvetica,sans-serif;font-size:95%}h1,h2,h3,h4,h5,h6{line-height:1.33}pre,code,tt,samp,kbd,var{font-family:Consolas,Monaco,"Courier New",Courier,monospace,sans-serif}.not-front #header{display:none}#leaderboard-wrapper{overflow:hidden}#leaderboard-wrapper .container{width:100%;max-width:100%;z-index:999;height:50px}#leaderboard-wrapper .region-inner{background:rgba(255,255,255,0.6);border-bottom:solid 1px #eee}#leaderboard-wrapper .block-inner{margin-left:0;margin-right:0}#leaderboard-wrapper #block-block-7{float:left}#header-wrapper{background:url(../images/Nairobi_Skyline.jpg) no-repeat center bottom}#nav-wrapper{border-bottom:solid 1px #f5f5f5;margin-bottom:1em}#footer-wrapper{background:#f5f5f5}.region-leaderboard .iiedlogo{height:49px}.region-leaderboard .block{margin-bottom:0}#logo{padding:10px 0}#logo img{vertical-align:bottom}#site-name{margin:0;font-size:14px;position:relative;left:120px;top:-36px}#site-name a:link,#site-name a:visited{text-decoration:none;color:#555}#site-name a:hover,#site-name a:focus{text-decoration:underline;color:black}#site-slogan{color:white;display:inline-block;padding:0 5px;background-color:rgba(180,180,180,0.8)}#page-title{margin:0}#aggregator .feed-source .feed-icon{display:inline;float:none;margin-right:10px}.feed-details dt,.feed-details dd{display:inline;margin:0}.more-link{margin:0 !important}.more-link a:link,.more-link a:visited{color:#d80 !important}.more-link a:hover,.more-link a:active{color:#555 !important}ul.links,ul.facetapi-facetapi-checkbox-links{margin:0;padding:0}ul.links.inline,ul.inline.facetapi-facetapi-checkbox-links{display:block}ul.links li,ul.facetapi-facetapi-checkbox-links li{display:inline;list-style:none;padding:0 10px 0 0}.search-results{margin:0;padding:0}.attribution{display:block;opacity:0.65;padding:1em 0;text-align:center}.attribution a{text-decoration:none;color:inherit}.attribution a:hover,.attribution a:focus{text-decoration:underline}#footer{padding:10px 0}a{text-decoration:none}a:link{color:#d80}a:visited{color:#efa118}a:hover,a:focus{color:#555;text-decoration:underline}.nav{clear:both;margin:10px 0}.nav ul,.nav ul.menu{margin:0;padding:0}.nav li,.nav ul.menu li{display:inline;float:left;list-style:none;margin:0;padding:0}.nav li a,.nav ul.menu li a{display:block;white-space:nowrap;padding:0 10px}.nav .block{margin-bottom:0}ul.sf-menu{margin-bottom:0}ul.sf-menu a{border-left:0;border-top:0;padding:0 10px;text-decoration:none;height:2.5em;line-height:2.5em}ul.sf-menu li:hover,ul.sf-menu li.sfHover{outline:0}ul.sf-menu a:focus,ul.sf-menu a:hover,ul.sf-menu a:active{outline:0}.block-superfish ul{margin:0 !important;padding:0 !important}.block-superfish li{margin:0 !important;padding:0 !important}.sf-vertical{width:100%}.sf-vertical li{width:100%}.sf-vertical li:hover ul,.sf-vertical li.sfHover ul{left:100%;top:0;margin:0;padding:0}.sf-vertical li a{padding:0 10px}.sf-navbar{padding-bottom:0 !important}.sf-menu.sf-style-default a{padding:0 10px}.at-mt .at-menu-toggle,.at-mt .at-menu-toggle ul,.at-mt .at-menu-toggle ul.menu{margin-top:0;margin-bottom:0;padding:0}.at-mt .at-menu-toggle-button{margin:0}.at-mt .at-menu-toggle ul a{white-space:nowrap}ul.menu{padding-left:15px}ul.menu ul{padding-left:15px}ul.menu li{margin:0}ul.menu li a:link,ul.menu li a:visited{color:#555}ul.menu li a:active,ul.menu li a.active{color:#000}ul.menu li a:hover,ul.menu li a:focus{color:#000}ul.menu li.active a,ul.menu li.active-trail a{color:#000}.block .menu li.content{padding:0}.book-navigation .page-up{min-width:2em;white-space:nowrap}.book-navigation .menu{margin-left:0}#breadcrumb{margin:10px 0}#breadcrumb .breadcrumb-label{font-size:1em;display:inline;padding-right:10px}#breadcrumb .breadcrumb-label:after{content:":"}#breadcrumb ol{margin:0;padding:0}#breadcrumb .with-breadcrumb-label ol{display:inline}#breadcrumb li{list-style:none;display:inline}ul.pager{clear:both;margin:0;text-align:center}.item-list ul.pager li{margin:0}ul.pager li{background-image:none;display:inline;list-style-type:none;padding:.5em}ul.pager li.pager-current{font-weight:700}.block ul.pager li{margin:0}#skip-link{left:50%;margin-left:-6.5em;margin-top:0;padding:0 0.5em;position:absolute;width:12em;z-index:50}#skip-link a{background:#444;background:rgba(0,0,0,0.6);color:#fff;display:block;line-height:2;padding:0;text-align:center;text-decoration:none}#skip-link a:link,#skip-link a:visited{background:#444;background:rgba(0,0,0,0.6);color:#fff;display:block;line-height:2;padding:0;text-align:center;text-decoration:none}#skip-link a:hover,#skip-link a:focus,#skip-link a:active{outline:0}#tasks{margin-bottom:15px}ul.primary{border-bottom-color:#ccc;margin:20px 0;padding:0 0 0 5px}ul.primary li{display:block;float:left;margin:0 1px -1px}ul.primary li a{background-color:#f5f5f5;border-color:#ccc;margin-right:1px;padding:0 10px;display:block;float:left;height:1.5em;line-height:1.5em}ul.primary li a:hover,ul.primary li a:focus{background-color:#eee;border-color:#ccc}ul.primary li.active a,ul.primary li.active a:hover,ul.primary li.active a:focus{background-color:#fff;border-bottom-color:#fff}ul.secondary{border-bottom:1px solid #ccc;margin:1em 0 0;padding:0 .3em 1em}ul.secondary li{border-right:0;list-style:none;padding:0 10px 0 0}ul.secondary li a:hover,ul.secondary li a.active{border-bottom:none;text-decoration:underline}ul.action-links{margin:20px 0 0;list-style:none}.field-label-inline .field-label{margin:0}.field-label{font-size:1em;font-weight:700;font-family:inherit;line-height:inherit;margin-bottom:0}.field-type-taxonomy-term-reference{margin-bottom:1.5em}.field-type-taxonomy-term-reference.field-label-inline .field-items{margin:0;padding:0}.field-type-taxonomy-term-reference.field-label-inline .field-item{display:inline;list-style:none;padding:0 10px 0 0}.field-name-field-affiliation{margin-bottom:0.5em}.ia-l .field-type-image figure,.iat-l .field-type-image figure{margin:5px 20px 15px 0}.ia-c .field-type-image figure,.iat-c .field-type-image figure{margin:5px auto 15px}.ia-r .field-type-image figure,.iat-r .field-type-image figure{margin:5px 0 15px 20px}.block{margin-bottom:20px}.block-title{margin:0}.block-content ul,.block-content ol{padding:0 0 0 15px}.block-content li{margin:0;padding:0}#block-lang-dropdown-language{float:right;padding:10px 15px;position:relative;z-index:1}.block-menu.menu-wrapper a{font-weight:700;font-size:1.2em;padding:0 1em 0 0;line-height:2.5em;text-transform:uppercase}.block-menu.menu-wrapper .first a{width:32px;height:32px;background:url(../images/favicon-32x32.png) no-repeat;display:block !important;text-indent:100%;white-space:nowrap;overflow:hidden;border:0;font:0/0 a;text-shadow:none;color:transparent;background-color:transparent}.block-menu.menu-wrapper .last a{padding-right:0}.node{margin-bottom:20px}.node .node-title{margin:0}#comments{margin:1.5em 0}#comments h2.comment-title{margin:0}#comments h2.comment-form{margin:0}.comment{margin-bottom:20px}.comment-title{margin:0}.new{color:#c00}.indented{margin-left:40px}textarea,select,input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="email"],input[type="month"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],input[type="week"],button,input[type="reset"],input[type="submit"],input[type="button"],input[type="file"]{background-color:#f5f5f5;color:#555;max-width:100%;border-radius:0;height:1.5em;padding:5px}textarea,select,button,input[type="reset"],input[type="submit"],input[type="button"],input[type="file"]{height:auto}button,input[type="reset"],input[type="submit"],input[type="button"]{border-radius:5px}.form-item input.error,.form-item textarea.error,.form-item select.error{border:1px solid #c00}.form-item label{font-weight:700}.form-item .description{font-size:0.85em}.views-exposed-form .views-exposed-widget{padding-right:.5em;max-width:75%}.views-exposed-form .views-exposed-widget .form-submit{margin-top:1.2em}.marker,.form-required{color:#c00}.container-inline div,.container-inline label{display:inline}#edit-search,input[type="search"]{background:#f5f5f5 url(../images/search-icon.png) no-repeat center right;border:solid 1px #ccc;padding-right:18px;width:75%}input[type="search"]{text-indent:9px;width:10px;transition:width 0.5s ease-out;float:right}input[type="search"]:focus{width:240px;transition:all 0.5s ease-out;position:relative;text-indent:0}#search-block-form input[type="submit"]{display:none}#edit-search-block-form--2{margin-top:-60px}fieldset{border:1px solid #ccc}a.button{-moz-appearance:button;-webkit-appearance:button}.password-parent,.confirm-parent{margin:0}table{margin:10px 0;padding:0;width:100%}table.sticky-header{z-index:10}table,thead,tbody,tr,th,td{border-color:#ccc}table,td,th{vertical-align:middle}caption,th,td{text-align:left}thead tr{font-weight:700;background-color:#a9a9a9}td,th{border-bottom:0;margin:0;padding:5px 7px}tbody tr{border-top:1px solid #ccc}tr.odd{background:#fff}tr.info,tr.even,tr:nth-child(2n+2){border-bottom:0;background-color:#f5f5f5}tr.odd td.active{background-color:#eee}tr.even td.active{background-color:#ebebeb}table.views-view-grid,table.views-view-grid tbody,table.views-view-grid tbody tr,table.views-view-grid tbody tr td,table.views-view-grid tbody tr td a,table.views-view-grid tbody tr td a img,table.views-view-grid tbody tr td img{display:block;border-bottom:none}table.views-view-grid tr{clear:left}table.views-view-grid td{vertical-align:top;margin-right:5px;float:left}#forum td.created,#forum td.posts,#forum td.topics,#forum td.last-reply,#forum td.replies,#forum td.pager{white-space:normal}.view-partners table{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.view-partners table tr{border:none;background-color:#fff}div.messages{margin-bottom:10px;margin-top:10px}div.messages ul{margin-top:0;margin-bottom:0}.node-unpublished p.unpublished,.comment-unpublished p.unpublished{color:pink;color:rgba(239,170,170,0.4);font-family:Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;font-size:50px;font-weight:700;line-height:1.2;height:0;margin:0;padding:0;overflow:visible;text-align:center;text-transform:uppercase;word-wrap:break-word}.ie6-7 .node-unpublished p.unpublished>*,.ie6-7 .comment-unpublished p.unpublished>*{position:relative}.maintenance-page .container{padding:40px 0}.maintenance-page #site-name,.maintenance-page #page-title{margin:0}.db-offline .container{margin:0 auto;padding:40px 0;width:100%;max-width:960px}.db-offline div.messages{margin:20px 0 0}.db-offline #content{padding:20px 0}#admin-menu{margin:0;padding:0}.dev-query{background:#eee;padding:30px}#styleguide-header{padding:0 10px}#styleguide-header .item-list{font-family:inherit;margin:0 20px 20px 0;min-height:260px;width:auto}.region-leaderboard ul.menu{min-height:49px;background:url(../images/dark_bg.png) repeat-x left top;width:100%}.region-leaderboard ul.menu li{display:inline-block;line-height:49px;padding-left:15%}.region-leaderboard ul.menu li a{display:block;color:#fff;font-weight:700}.region-leaderboard ul.menu li.first{padding-left:0}.region-leaderboard ul.menu li.first a{text-indent:-99999px}.region-leaderboard ul.menu li.leaf{padding-top:0}.field-name-download-button,.region-sidebar-first .field-name-field-link{text-align:center;margin:1em 0}.download,.region-sidebar-first .field-name-field-link .field-item a{text-decoration:none;padding:.5em;border:solid 1px #ebebeb}.field-name-ds-user-picture,.view-mode-search_result .field-name-cover-thumbnail,.view-mode-search_result .field-name-field-cover-image,.view-mode-search_result .field-name-field-material-type,.view-mode-search_result .field-name-field-no-of-pages,.view-mode-search_result .field-name-field-author-s-,.view-mode-search_result .field-name-field-file,.view-mode-search_result .views-field-field-image,.view-mode-teaser .field-name-cover-thumbnail,.view-mode-teaser .field-name-field-cover-image,.view-mode-teaser .field-name-field-material-type,.view-mode-teaser .field-name-field-no-of-pages,.view-mode-teaser .field-name-field-author-s-,.view-mode-teaser .field-name-field-file,.view-mode-teaser .views-field-field-image,.view-id-partners.view-display-id-page_1 .field-name-cover-thumbnail,.view-id-partners.view-display-id-page_1 .field-name-field-cover-image,.view-id-partners.view-display-id-page_1 .field-name-field-material-type,.view-id-partners.view-display-id-page_1 .field-name-field-no-of-pages,.view-id-partners.view-display-id-page_1 .field-name-field-author-s-,.view-id-partners.view-display-id-page_1 .field-name-field-file,.view-id-partners.view-display-id-page_1 .views-field-field-image,.view-mode-teaser .field-name-field-cover-image,.view-mode-teaser .field-name-field-videoembed,.vocabulary-partners.view-mode-taxoteaser .field-name-field-image,.view-mode-search_result .field-name-field-videoembed,.view-mode-full img.shrinktheweb,.view-id-links img.shrinktheweb,.vocabulary-partners.view-mode-full .field-name-field-image{float:left;margin:0 10px 10px 0;width:120px}.field-name-ds-user-picture img,.view-mode-search_result .field-name-cover-thumbnail img,.view-mode-search_result .field-name-field-cover-image img,.view-mode-search_result .field-name-field-material-type img,.view-mode-search_result .field-name-field-no-of-pages img,.view-mode-search_result .field-name-field-author-s- img,.view-mode-search_result .field-name-field-file img,.view-mode-search_result .views-field-field-image img,.view-mode-teaser .field-name-cover-thumbnail img,.view-mode-teaser .field-name-field-cover-image img,.view-mode-teaser .field-name-field-material-type img,.view-mode-teaser .field-name-field-no-of-pages img,.view-mode-teaser .field-name-field-author-s- img,.view-mode-teaser .field-name-field-file img,.view-mode-teaser .views-field-field-image img,.view-id-partners.view-display-id-page_1 .field-name-cover-thumbnail img,.view-id-partners.view-display-id-page_1 .field-name-field-cover-image img,.view-id-partners.view-display-id-page_1 .field-name-field-material-type img,.view-id-partners.view-display-id-page_1 .field-name-field-no-of-pages img,.view-id-partners.view-display-id-page_1 .field-name-field-author-s- img,.view-id-partners.view-display-id-page_1 .field-name-field-file img,.view-id-partners.view-display-id-page_1 .views-field-field-image img,.view-mode-teaser .field-name-field-cover-image img,.view-mode-teaser .field-name-field-videoembed img,.vocabulary-partners.view-mode-taxoteaser .field-name-field-image img,.view-mode-search_result .field-name-field-videoembed img,.view-mode-full img.shrinktheweb img,.view-id-links img.shrinktheweb img,.vocabulary-partners.view-mode-full .field-name-field-image img{border:solid 1px #f5f5f5}.field-name-cover-medium img{border:solid 1px #f5f5f5}.view-mode-search_result .field-name-field-material-type,.view-mode-search_result .field-name-field-no-of-pages,.view-mode-search_result .field-name-field-author-s-,.view-mode-teaser .field-name-field-material-type,.view-mode-teaser .field-name-field-no-of-pages,.view-mode-teaser .field-name-field-author-s-,.view-id-partners.view-display-id-page_1 .field-name-field-material-type,.view-id-partners.view-display-id-page_1 .field-name-field-no-of-pages,.view-id-partners.view-display-id-page_1 .field-name-field-author-s-{width:auto !important}.view-mode-search_result .field-name-title h2,.view-mode-teaser .field-name-title h2{margin-top:0}.field-type-taxonomy-term-reference ul{list-style:none;margin:0;padding:0}.field-type-taxonomy-term-reference ul li{display:inline;margin-right:10px}.image-caption{text-align:center;margin:auto;color:#a9a9a9}.caption,.view-id-city_cases{float:left;position:relative}.box,#block-block-8,#block-views-home-block-2,.caption p,.view-id-city_cases .flex-caption a,.view-id-city_cases .views-field-name a,.view-id-city_cases .views-field-name-i18n a{padding:0.5em 10px !important;width:auto;background:rgba(239,161,24,0.75);color:#fff !important;display:inline-block;position:relative}#block-block-8,#block-views-home-block-2{background:#efa118}#block-block-8 a,#block-views-home-block-2 a{color:#fff}.caption p,.view-id-city_cases .flex-caption a,.view-id-city_cases .views-field-name a,.view-id-city_cases .views-field-name-i18n a{left:0;top:0;position:absolute}.view-id-city_cases .flex-caption a{top:auto;bottom:0;height:3em}.view-mode-grid .box,.view-mode-grid #block-block-8,.view-mode-grid #block-views-home-block-2,.view-mode-grid .caption p,.caption .view-mode-grid p,.view-mode-grid .view-id-city_cases .flex-caption a,.view-id-city_cases .flex-caption .view-mode-grid a,.view-mode-grid .view-id-city_cases .views-field-name a,.view-id-city_cases .views-field-name .view-mode-grid a,.view-mode-grid .view-id-city_cases .views-field-name-i18n a,.view-id-city_cases .views-field-name-i18n .view-mode-grid a{top:-2.5em}.view-mode-grid .field-name-title{margin-top:-2.5em;min-height:6em}.tagclouds-term,.more-link{padding:4px 8px;border:solid 1px #ebebeb;background-color:#ebebeb;line-height:normal;display:inline-block;margin:3px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.tagclouds-term a,.more-link a{text-decoration:none}.view-id-partners.view-display-id-block_1 .flexslider .slides>li{margin:10px 33px;max-width:120px}ul.slides{padding-left:0}.flex-control-nav{width:99%}.flex-control-nav li{margin:0 6px}.flexslider .flex-direction-nav a{height:50px}.flexslider .flex-direction-nav a:link,.flexslider .flex-direction-nav a:visited,.flexslider .flex-direction-nav a:hover,.flexslider .flex-direction-nav a:focus,.flexslider .flex-direction-nav a:before{color:#d80}.view-id-city_cases .flexslider{border:none}.mmenu-nav.mm-basic{z-index:10000;background:white;color:#0580A9;text-shadow:none;font-family:Arial,Helvetica,sans-serif;font-size:12px}.mmenu-nav.mm-basic>.mm-header,.mmenu-nav.mm-basic>.mm-list li.mmenu-expanded .mmenu-block-expanded{color:#0580A9;background:white;border-bottom:1px solid #f5f5f5}.mmenu-nav.mm-basic>.mm-header .mm-title{font-size:1.5em;padding:0 10%;width:80%;text-align:center}.mmenu-nav.mm-basic>.mm-list li{border-top:none;border-bottom:1px solid #f5f5f5}#block-menu-menu-footer-menu ul{margin-top:0}#block-menu-menu-footer-menu li{float:left;width:48%;list-style-image:none;list-style-type:none}.views-row{margin-bottom:1em}.view-mode-grid h2{font-size:1.1em}ul.facetapi-facetapi-checkbox-links li{display:block;margin-left:0;padding:0}.field-name-field-standfirst,.node-type-blog .field-name-field-standfirst,.view-mode-grid .field-name-field-standfirst,.view-mode-teaser .field-name-field-standfirst{color:#555;font-size:1.2em}.node-type-blog .field-name-field-standfirst{clear:both}.view-mode-grid .field-name-field-standfirst,.view-mode-teaser .field-name-field-standfirst{font-size:1em;color:#000}#block-block-11{display:inline-block;float:right;margin:0.25em;padding:10px 0;z-index:1;position:relative}
+/*
+ * @file
+ * global.styles
+ *
+ * Styles you add here will load for all device sizes, they are "global", as
+ * opposed to "responsive" styles, which only load for a given breakpoint (media
+ * query) that you set in theme settings. See the README for more details.
+ *
+ *
+ * How to use this file:
+ * --------------------
+ *
+ * There are many empty selectors and some basic styles to act as a guide.
+ * Nothing is set in stone and you can change anything - even delete all of it
+ * and start with your own clean slate.
+ *
+ * To FORCE PRINT all selectors you can search and replace a single { (opening
+ * curly brace) and insert an empty comment. This is very useful in conjuction
+ * with FireSass: https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/
+ *
+ * See global.base also which includes normalize.css and some additional
+ * helper classes and base styles.
+ */
+/* =============================================================================
+ *   Base
+ * ========================================================================== */
+/*
+ * To preserve theme settings never apply font properties to the HTML element.
+ * This is critically important if you are using the Responsive JavaScript
+ * feature as this relies on being able to set a pseudo font family on the HTML
+ * element. If you need to set default font properties of any kind use the BODY
+ * element as these can be overridden using font theme settings.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\0000341}}
+html {
+  background: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\0000345}}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 95%;
+}
+
+/* =============================================================================
+ *   HTML Elements
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\0000355}}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.33;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003122}}
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-family: Consolas, Monaco, "Courier New", Courier, monospace, sans-serif;
+}
+
+/* =============================================================================
+ *   Wrappers
+ * ========================================================================== */
+/*
+ * Outer wrappers:
+ * - #page-wrapper: body > #page-wrapper
+ * - #page: body > #page-wrapper > #page
+ * - .container: body > #page-wrapper > #page.container
+ *
+ * The .container class holds the page width value from theme settings. You can
+ * style the .container class but do not add width such as border, padding,
+ * margins etc.
+ */
+/*
+ * Wraps all header elements - branding and .region-header
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003158}}
+.not-front #header {
+  display: none;
+}
+
+/*
+ * Wraps the sidebars the content column
+ */
+/*
+ * Main content column wrapper
+ */
+/*
+ * Wraps the main-content-header, the content region and feed-icons. Use this
+ * wrapper to style the entire main content column
+ */
+/*
+ * Wraps the content region, avoid applying styles to this wrapper, its used
+ * mainly for position and invisible gutters and can be problematic to style
+ */
+/*
+ * Footer wrapper
+ */
+/*
+ * Panels may need additional margin wrangling when in the $content region
+ */
+/*
+ * Full Width Wrappers
+ * These are used in the optional page--full-width-wrappers.tpl.php template.
+ * All have internal .container classes. In the full width wrapper template the
+ * .container classes set the width or max-width - you can style this but never
+ * add any width/margin/padding/borders etc to .container
+ */
+/*
+ * Wraps the leaderboard
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003212}}
+#leaderboard-wrapper {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003214}}
+#leaderboard-wrapper .container {
+  width: 100%;
+  max-width: 100%;
+  z-index: 999;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003220}}
+#leaderboard-wrapper .region-inner {
+  background: rgba(255, 255, 255, 0.6);
+  border-bottom: solid 1px #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003224}}
+#leaderboard-wrapper .block-inner {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003228}}
+#leaderboard-wrapper #block-block-7 {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003234}}
+.admin-menu #leaderboard-wrapper .container {
+  /* padding-top: 29px; */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003237}}
+.admin-menu #overlay-container, .admin-menu .overlay-modal-background, .admin-menu .overlay-element {
+  /*	top: 40px; */
+}
+
+/*
+ * Wraps the header
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003246}}
+#header-wrapper {
+  background: url(../images/Nairobi_Skyline.jpg) no-repeat center bottom;
+}
+
+/*
+ * Wraps the nav elements
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003254}}
+#nav-wrapper {
+  border-bottom: solid 1px #f5f5f5;
+  margin-bottom: 1em;
+}
+
+/*
+ * Wraps breadcrumb
+ */
+/*
+ * Wraps messages and help
+ */
+/*
+ * Wraps the secondary content/preface region
+ */
+/*
+ * Wraps the main content column
+ */
+/*
+ * Wraps the tertiary content/postfix region
+ */
+/*
+ * Footer wrapper
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003302}}
+#footer-wrapper {
+  background: #f5f5f5;
+}
+
+/* =============================================================================
+ *   Leaderboard
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003313}}
+.region-leaderboard .iiedlogo {
+  height: 49px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003316}}
+.region-leaderboard .block {
+  margin-bottom: 0;
+}
+
+/* =============================================================================
+ *   Branding
+ * ========================================================================== */
+/*
+ * Wraps all the branding elements, logo, name and slogan
+ */
+/*
+ * Logo
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003334}}
+#logo {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003337}}
+#logo img {
+  vertical-align: bottom;
+}
+
+/*
+ * Wrapper for the site name and slogan
+ */
+/*
+ * Site name (h1)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003352}}
+#site-name {
+  margin: 0;
+  font-size: 14px;
+  position: relative;
+  left: 120px;
+  top: -36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003360}}
+#site-name a:link, #site-name a:visited {
+  text-decoration: none;
+  color: #555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003366}}
+#site-name a:hover, #site-name a:focus {
+  text-decoration: underline;
+  color: black;
+}
+
+/*
+ * Site slogan (h2)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003378}}
+#site-slogan {
+  color: white;
+  display: inline-block;
+  padding: 0 5px;
+  background-color: rgba(180, 180, 180, 0.8);
+}
+
+/* =============================================================================
+ *   Page content header
+ * ========================================================================== */
+/*
+ * Main content header wraps the page title, tabs and actions links
+ */
+/*
+ * The main page title (h1)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003399}}
+#page-title {
+  margin: 0;
+}
+
+/* =============================================================================
+ *   Misc Global Styles
+ * ========================================================================== */
+/*
+ * Feed icons
+ */
+/*
+ * Aggregator feed source
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003417}}
+#aggregator .feed-source .feed-icon {
+  display: inline;
+  float: none;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003424}}
+.feed-details dt,
+.feed-details dd {
+  display: inline;
+  margin: 0;
+}
+
+/*
+ * Generic styles for the more link
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003434}}
+.more-link {
+  margin: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003437}}
+.more-link a:link, .more-link a:visited {
+  color: #DD8800 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003440}}
+.more-link a:hover, .more-link a:active {
+  color: #555 !important;
+}
+
+/*
+ * Generic styles for links. See the ul.links declaration in node and comment stylesheets
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003449}}
+ul.links, ul.facetapi-facetapi-checkbox-links {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003453}}
+ul.links.inline, ul.inline.facetapi-facetapi-checkbox-links {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003457}}
+ul.links li, ul.facetapi-facetapi-checkbox-links li {
+  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+/*
+ * Search results are an ordered list so reset the margin
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003468}}
+.search-results {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Attribution message and link
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003477}}
+.attribution {
+  display: block;
+  opacity: 0.65;
+  padding: 1em 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003483}}
+.attribution a {
+  text-decoration: none;
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003487}}
+.attribution a:hover, .attribution a:focus {
+  text-decoration: underline;
+}
+
+/* =============================================================================
+ *   Regions
+ * ========================================================================== */
+/*
+ * Standard region wrapper, don't add width to any regions, you will bork the layout - no margin, padding or borders etc
+ */
+/*
+ * Regions have an inner div - perfect for adding margin, padding or borders
+ */
+/*
+ * Regions can be nested, such as when using Panels
+ */
+/*
+ * Header region, embedded in the #header
+ */
+/*
+ * Generally used to output Drupals help block, if the help module is enabled
+ */
+/*
+ * Secondary content
+ */
+/*
+ * Sits above the main content header, like a content-top region
+ */
+/*
+ * Sits below the main content, like a content-bottom region
+ */
+/*
+ * Sidebars - targets both
+ */
+/*
+ * First sidebar
+ */
+/*
+ * Second sidebar
+ */
+/*
+ * Tertiary content
+ */
+/*
+ * Footer region
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003574}}
+#footer {
+  padding: 10px 0;
+}
+
+/* =============================================================================
+ *   Links
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003585}}
+a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003588}}
+a:link {
+  color: #DD8800;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003591}}
+a:visited {
+  color: #efa118;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003594}}
+a:hover, a:focus {
+  color: #555;
+  text-decoration: underline;
+}
+
+/* =============================================================================
+ *   Primary, Secondary and Menu Bar region menus
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003606}}
+.nav {
+  clear: both;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003610}}
+.nav ul,
+.nav ul.menu {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003616}}
+.nav li,
+.nav ul.menu li {
+  display: inline;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003625}}
+.nav li a,
+.nav ul.menu li a {
+  display: block;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003637}}
+.nav .block {
+  margin-bottom: 0;
+}
+
+/* =============================================================================
+ *   Superfish
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003647}}
+ul.sf-menu {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003650}}
+ul.sf-menu a {
+  border-left: 0;
+  border-top: 0;
+  padding: 0 10px;
+  text-decoration: none;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003663}}
+ul.sf-menu li:hover, ul.sf-menu li.sfHover {
+  outline: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003670}}
+ul.sf-menu a:focus, ul.sf-menu a:hover, ul.sf-menu a:active {
+  outline: 0;
+}
+
+/*
+ * Superfish blocks
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003686}}
+.block-superfish ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003697}}
+.block-superfish li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*
+ * Vertical style
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003707}}
+.sf-vertical {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003710}}
+.sf-vertical li {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003715}}
+.sf-vertical li:hover ul, .sf-vertical li.sfHover ul {
+  left: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003723}}
+.sf-vertical li a {
+  padding: 0 10px;
+}
+
+/*
+ * Navbar style
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003733}}
+.sf-navbar {
+  padding-bottom: 0 !important;
+}
+
+/*
+ * Sensible padding for the default style
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003741}}
+.sf-menu.sf-style-default a {
+  padding: 0 10px;
+}
+
+/* =============================================================================
+ *   Menu Toggles
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003751}}
+.at-mt .at-menu-toggle,
+.at-mt .at-menu-toggle ul,
+.at-mt .at-menu-toggle ul.menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003759}}
+.at-mt .at-menu-toggle-button {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003763}}
+.at-mt .at-menu-toggle ul a {
+  /*padding: 0 10px;*/
+  white-space: nowrap;
+}
+
+/* =============================================================================
+ *   Menus, usually blocks
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003774}}
+ul.menu {
+  padding-left: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003777}}
+ul.menu ul {
+  padding-left: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003785}}
+ul.menu li {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003794}}
+ul.menu li a:link, ul.menu li a:visited {
+  color: #555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003799}}
+ul.menu li a:active, ul.menu li a.active {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003804}}
+ul.menu li a:hover, ul.menu li a:focus {
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003810}}
+ul.menu li.active a, ul.menu li.active-trail a {
+  color: black;
+}
+
+/* If li.content exists it's a problem, so reset the padding */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003822}}
+.block .menu li.content {
+  padding: 0;
+}
+
+/* =============================================================================
+ *   Book navigation menu
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003839}}
+.book-navigation .page-up {
+  /* Prevent text wrapping to a new line, assumes English "up" is used (two characters) */
+  min-width: 2em;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003845}}
+.book-navigation .menu {
+  margin-left: 0;
+}
+
+/* =============================================================================
+ *   Breadcrumbs
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003855}}
+#breadcrumb {
+  margin: 10px 0;
+  /* If the label is set to show in theme settings the label class is added */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003859}}
+#breadcrumb .breadcrumb-label {
+  font-size: 1em;
+  display: inline;
+  padding-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003864}}
+#breadcrumb .breadcrumb-label:after {
+  content: ":";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003869}}
+#breadcrumb ol {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003874}}
+#breadcrumb .with-breadcrumb-label ol {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003878}}
+#breadcrumb li {
+  list-style: none;
+  display: inline;
+}
+
+/* =============================================================================
+ *   Pagers
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003905}}
+ul.pager {
+  clear: both;
+  margin: 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003912}}
+.item-list ul.pager li {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003917}}
+ul.pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+  padding: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003923}}
+ul.pager li.pager-current {
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003929}}
+.block ul.pager li {
+  margin: 0;
+}
+
+/*
+ * Theme the various states of pager links
+ */
+/* =============================================================================
+ *   Skip Navigation
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003966}}
+#skip-link {
+  left: 50%;
+  margin-left: -6.5em;
+  margin-top: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  width: 12em;
+  z-index: 50;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003975}}
+#skip-link a {
+  background: #444;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003985}}
+#skip-link a:link, #skip-link a:visited {
+  background: #444;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: block;
+  line-height: 2;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\00003996}}
+#skip-link a:hover, #skip-link a:focus, #skip-link a:active {
+  outline: 0;
+}
+
+/* =============================================================================
+ *   Tabs (local tasks)
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031009}}
+#tasks {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031014}}
+ul.primary {
+  border-bottom-color: #ccc;
+  margin: 20px 0;
+  padding: 0 0 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031019}}
+ul.primary li {
+  display: block;
+  float: left;
+  margin: 0 1px -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031024}}
+ul.primary li a {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+  margin-right: 1px;
+  padding: 0 10px;
+  display: block;
+  float: left;
+  height: 1.5em;
+  line-height: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031034}}
+ul.primary li a:hover, ul.primary li a:focus {
+  background-color: #eee;
+  border-color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031043}}
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+  background-color: white;
+  border-bottom-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031053}}
+ul.secondary {
+  border-bottom: 1px solid #ccc;
+  margin: 1em 0 0;
+  padding: 0 .3em 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031058}}
+ul.secondary li {
+  border-right: 0;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031064}}
+ul.secondary li a:hover, ul.secondary li a.active {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+/* =============================================================================
+ *   Action links
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031078}}
+ul.action-links {
+  margin: 20px 0 0;
+  list-style: none;
+}
+
+/* =============================================================================
+ *  Field Styling
+ * ========================================================================== */
+/*
+ * Wrapper for any field
+ */
+/*
+ * Above and inline classes are on the field wrapper
+ */
+/*
+ * When labels are set to inline in field display settings the clearfix class is automatically added
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031105}}
+.field-label-inline {
+  /* Remove the margin on inline field lables to preserve vertical formatting */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031108}}
+.field-label-inline .field-label {
+  margin: 0;
+}
+
+/*
+ * Labels are h2 in Adaptivetheme. Use a strong selector to mitigate unwanted ineritance issues
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031116}}
+.field-label {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: inherit;
+  margin-bottom: 0;
+}
+
+/*
+ * Field types (Core)
+ */
+/*
+ * Image fields use the <figure> and <figcaption> elements from HTML5
+ */
+/*
+ * Taxonomy
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031145}}
+.field-type-taxonomy-term-reference {
+  /* The same bottom margin as p, blockquote, ul, ol and dl */
+  margin-bottom: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031150}}
+.field-type-taxonomy-term-reference.field-label-inline .field-items {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031155}}
+.field-type-taxonomy-term-reference.field-label-inline .field-item {
+  display: inline;
+  list-style: none;
+  padding: 0 10px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031162}}
+.field-name-field-affiliation {
+  margin-bottom: 0.5em;
+}
+
+/*
+ * Text
+ */
+/*
+ * Long text
+ */
+/*
+ * Text with summary
+ */
+/*
+ * File
+ */
+/*
+ * Number/Integer
+ */
+/*
+ * Decimal
+ */
+/*
+ * Number float
+ */
+/*
+ * List
+ */
+/*
+ * List boolean
+ */
+/*
+ * List integer
+ */
+/*
+ * List float
+ */
+/*
+ * Field types (Contrib)
+ */
+/*
+ * Named fields
+ */
+/*
+ * Underscores in field name are replaced with dashes
+ */
+/*
+ * Image Alignment Theme Settings - included here so you can easily override
+ */
+/*
+ * Float none setting
+ */
+/*
+ * Float left setting
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031273}}
+.ia-l .field-type-image figure,
+.iat-l .field-type-image figure {
+  margin: 5px 20px 15px 0;
+}
+
+/*
+ * Centered setting
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031282}}
+.ia-c .field-type-image figure,
+.iat-c .field-type-image figure {
+  margin: 5px auto 15px;
+}
+
+/*
+ * Float right setting
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031291}}
+.ia-r .field-type-image figure,
+.iat-r .field-type-image figure {
+  margin: 5px 0 15px 20px;
+}
+
+/* =============================================================================
+ *   Block Styling
+ * ========================================================================== */
+/*
+ * Main wrapper for most blocks, block_system_main does not have it
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031305}}
+.block {
+  margin-bottom: 20px;
+}
+
+/*
+ * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
+ */
+/*
+ * The first block in the region
+ */
+/*
+ * The last block in the region
+ */
+/*
+ * Zebra striping for each block in the region
+ */
+/*
+ * Zebra striping for each block in the region
+ */
+/*
+ * Block title
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031343}}
+.block-title {
+  margin: 0;
+}
+
+/*
+ * Block content wrapper
+ */
+/*
+ * Match item list and block menu margin and padding
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031359}}
+.block-content ul,
+.block-content ol {
+  padding: 0 0 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031364}}
+.block-content li {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Block for the latest news items in the first category
+ */
+/*
+ * Block for the latest news items in the first feed
+ */
+/*
+ * First block created with "Add block" link
+ */
+/*
+ * "Recent blog posts" block
+ */
+/*
+ * "Book navigation" block for the current book's table of contents
+ */
+/*
+ * "Recent comments" block
+ */
+/*
+ * "Active forum topics" block
+ */
+/*
+ * "New forum topics" block
+ */
+/*
+ * Language switcher block
+ */
+/*
+ * Custom menu block
+ */
+/*
+ * "Recent content" block
+ */
+/*
+ * "Syndicate" block for primary RSS feed; see also page.css's .feed-icon
+ */
+/*
+ * "Most recent poll" block
+ */
+/*
+ * "Author information" block for the profile of the page's author
+ */
+/*
+ * "Search form" block
+ */
+/*
+ * "Shortcuts" block
+ */
+/*
+ * "Popular content" block
+ */
+/*
+ * Language switcher block
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031475}}
+#block-lang-dropdown-language {
+  float: right;
+  padding: 10px 15px;
+  position: relative;
+  z-index: 1;
+}
+
+/*
+ * "Main menu" block
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031487}}
+.block-menu.menu-wrapper a, .block-superfish.menu-wrapper a {
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 0 1.2em 0 0;
+  line-height: 2.5em;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031494}}
+.block-menu.menu-wrapper .first a, .block-superfish.menu-wrapper .first a {
+  width: 32px;
+  height: 32px;
+  background: url(../images/favicon-32x32.png) no-repeat;
+  display: block !important;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031500}}
+.block-menu.menu-wrapper .last a, .block-superfish.menu-wrapper .last a {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031503}}
+.block-menu.menu-wrapper .sf-sub-indicator, .block-superfish.menu-wrapper .sf-sub-indicator {
+  background: url(../../../libraries/superfish/images/arrows-777777.png) no-repeat -10px -100px;
+  right: -1px;
+}
+
+/*
+ * "Management" block for Drupal management menu
+ */
+/*
+ * "Navigation" block for Drupal navigation menu
+ */
+/*
+ * "User menu" block for Drupal user menu
+ */
+/*
+ * "System help" block
+ */
+/*
+ * "Main page content" block
+ */
+/*
+ * "Powered by Drupal" block
+ */
+/*
+ * "User login form" block
+ */
+/*
+ * "Who's new" block for a list of the newest users
+ */
+/*
+ * "Who's online" block for a list of the online users
+ */
+/* =============================================================================
+ *   Node Styling
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031568}}
+.node {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031585}}
+.node .node-title {
+  margin: 0;
+}
+
+/*
+ * All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+/* =============================================================================
+ *   Comment Styling - Comments, comment wrapper, comment form
+ * ========================================================================== */
+/*
+ * Wrapper for the list of comments and its titles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031643}}
+#comments {
+  margin: 1.5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031647}}
+#comments h2.comment-title {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031651}}
+#comments h2.comment-form {
+  margin: 0;
+}
+
+/*
+ * Wrapper for a single comment
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031661}}
+.comment {
+  margin-bottom: 20px;
+}
+
+/*
+ * Comment title
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031692}}
+.comment-title {
+  margin: 0;
+}
+
+/*
+ * Comment states
+ */
+/*
+ * Preview of the comment before submitting new or updated comment
+ */
+/*
+ * "New" marker for comments that are new for the current user
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031724}}
+.new {
+  color: #c00;
+}
+
+/*
+ * Nested comments are indented
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031732}}
+.indented {
+  margin-left: 40px;
+}
+
+/* =============================================================================
+ *   Forms
+ * ========================================================================== */
+/*
+ * Wrapper for a form element (or group of form elements) and its label
+ */
+/* Forms */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031745}}
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], button, input[type="reset"], input[type="submit"], input[type="button"], input[type="file"] {
+  background-color: #f5f5f5;
+  color: #555;
+  max-width: 100%;
+  border-radius: 0;
+  height: 1.5em;
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031754}}
+textarea, select, button, input[type="reset"], input[type="submit"], input[type="button"], input[type="file"] {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031758}}
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031764}}
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031770}}
+.form-item label {
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031777}}
+.form-item .description {
+  font-size: 0.85em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031786}}
+.views-exposed-form .views-exposed-widget {
+  padding-right: .5em;
+  max-width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031791}}
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.2em;
+}
+
+/*
+ * Highlight marks and form required mark
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031798}}
+.marker,
+.form-required {
+  color: #c00;
+}
+
+/*
+ * The submit button
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031812}}
+.container-inline div,
+.container-inline label {
+  display: inline;
+}
+
+/* Search box */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031820}}
+#edit-search, input[type="search"], input[type="text"] {
+  background: #f5f5f5 url(../images/search-icon.png) no-repeat center right;
+  border: solid 1px #ccc;
+  padding-right: 18px;
+  width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031827}}
+input[type="search"], input[type="text"] {
+  text-indent: 9px;
+  width: 10px;
+  transition: width 0.5s ease-out;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031833}}
+input[type="search"]:focus, input[type="text"]:focus {
+  width: 240px;
+  transition: all 0.5s ease-out;
+  position: relative;
+  text-indent: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031842}}
+#search-block-form input[type="submit"], #block-search-api-page-default input[type="submit"] {
+  display: none;
+}
+
+/* Search form in nav area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031848}}
+#edit-search-block-form--2, #block-search-api-page-default {
+  margin-top: -60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031852}}
+.page-search #block-system-main h1 {
+  display: none;
+}
+
+/*
+ * Define consistent borders
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031859}}
+fieldset {
+  border: 1px solid #ccc;
+}
+
+/*
+ * Tips for Drupal's input formats
+ */
+/*
+ * Buttons used by contrib modules like Media
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031873}}
+a.button {
+  -moz-appearance: button;
+  -webkit-appearance: button;
+}
+
+/*
+ * Password confirmation
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031881}}
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+/* =============================================================================
+ *   Tables
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031891}}
+table {
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031896}}
+table.sticky-header {
+  z-index: 10;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031902}}
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border-color: #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031912}}
+table,
+td,
+th {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031919}}
+caption,
+th,
+td {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031926}}
+thead tr {
+  font-weight: 700;
+  background-color: darkgrey;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031932}}
+td,
+th {
+  border-bottom: 0;
+  margin: 0;
+  padding: 5px 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031943}}
+tbody tr {
+  border-top: 1px solid #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031948}}
+tr {
+  /* Table row striping */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031950}}
+tr.odd {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031955}}
+tr.info, tr.even, tr:nth-child(2n+2) {
+  border-bottom: 0;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031966}}
+tr.odd td.active {
+  background-color: #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031970}}
+tr.even td.active {
+  background-color: #ebebeb;
+}
+
+/* Responsive tables */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031989}}
+table.views-view-grid, table.views-view-grid tbody, table.views-view-grid tbody tr, table.views-view-grid tbody tr td, table.views-view-grid tbody tr td a, table.views-view-grid tbody tr td a img, table.views-view-grid tbody tr td img {
+  display: block;
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031993}}
+table.views-view-grid tr {
+  clear: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031997}}
+table.views-view-grid td {
+  vertical-align: top;
+  /*padding-bottom: 20px;*/
+  margin-right: 5px;
+  float: left;
+}
+
+/*
+ * Forum tables
+ * Core sets white-space to nowrap, which makes no sense
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032009}}
+#forum td.created, #forum td.posts, #forum td.topics, #forum td.last-reply, #forum td.replies, #forum td.pager {
+  white-space: normal;
+}
+
+/* Logo grid */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032022}}
+.view-partners table {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032026}}
+.view-partners table tr {
+  border: none;
+  background-color: white;
+}
+
+/* =============================================================================
+ *   Messages
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032038}}
+div.messages {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032043}}
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*
+ * Unpublished nodes
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032084}}
+.node-unpublished p.unpublished,
+.comment-unpublished p.unpublished {
+  color: pink;
+  color: rgba(239, 170, 170, 0.4);
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  text-align: center;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/_custom\.scss}line{font-family:\00003196}}
+.ie6-7 .node-unpublished p.unpublished > *, .ie6-7
+.comment-unpublished p.unpublished > * {
+  position: relative;
+}
+
+/* =============================================================================
+ *    Maintenance pages
+ * ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032095}}
+.maintenance-page .container {
+  padding: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032099}}
+.maintenance-page #site-name,
+.maintenance-page #page-title {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032107}}
+.db-offline .container {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 960px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032114}}
+.db-offline div.messages {
+  margin: 20px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032118}}
+.db-offline #content {
+  padding: 20px 0;
+}
+
+/* =============================================================================
+ *   Misc overrides for contrib modules
+ * ========================================================================== */
+/*
+ * Admin menu overrides
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032131}}
+#admin-menu {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Devel Module
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032140}}
+.dev-query {
+  background: #eee;
+  padding: 30px;
+}
+
+/*
+ * Styleguide module tweaks
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032149}}
+#styleguide-header {
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032152}}
+#styleguide-header .item-list {
+  font-family: inherit;
+  margin: 0 20px 20px 0;
+  min-height: 260px;
+  width: auto;
+}
+
+/* IIED banner menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032162}}
+.region-leaderboard ul.menu {
+  min-height: 49px;
+  background: url(../images/dark_bg.png) repeat-x left top;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032166}}
+.region-leaderboard ul.menu li {
+  display: inline-block;
+  line-height: 49px;
+  padding-left: 15%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032170}}
+.region-leaderboard ul.menu li a {
+  display: block;
+  color: white;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032176}}
+.region-leaderboard ul.menu li.first {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032178}}
+.region-leaderboard ul.menu li.first a {
+  text-indent: -99999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032182}}
+.region-leaderboard ul.menu li.leaf {
+  padding-top: 0;
+}
+
+/* Publication nodes */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032189}}
+.field-name-download-button, .region-sidebar-first .field-name-field-link {
+  text-align: center;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032194}}
+.download, .region-sidebar-first .field-name-field-link .field-item a {
+  text-decoration: none;
+  padding: .5em;
+  border: solid 1px #ebebeb;
+  background-color: #DD8800;
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Related resources block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032205}}
+#block-views-related-resources-block {
+  border-top: solid 1px #ebebeb;
+  margin-top: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032208}}
+#block-views-related-resources-block h2.block-title {
+  line-height: 2em;
+}
+
+/* Thumbnails */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032215}}
+.field-name-ds-user-picture, .view-mode-search_result .field-name-cover-thumbnail,
+.view-mode-search_result .field-name-field-cover-image,
+.view-mode-search_result .field-name-field-material-type,
+.view-mode-search_result .field-name-content-type,
+.view-mode-search_result .field-name-field-no-of-pages,
+.view-mode-search_result .field-name-field-author-s-,
+.view-mode-search_result .field-name-author,
+.view-mode-search_result .field-name-field-file,
+.view-mode-search_result .views-field-field-image, .view-mode-teaser .field-name-cover-thumbnail,
+.view-mode-teaser .field-name-field-cover-image,
+.view-mode-teaser .field-name-field-material-type,
+.view-mode-teaser .field-name-content-type,
+.view-mode-teaser .field-name-field-no-of-pages,
+.view-mode-teaser .field-name-field-author-s-,
+.view-mode-teaser .field-name-author,
+.view-mode-teaser .field-name-field-file,
+.view-mode-teaser .views-field-field-image,
+.view-id-partners.view-display-id-page_1 .field-name-cover-thumbnail,
+.view-id-partners.view-display-id-page_1 .field-name-field-cover-image,
+.view-id-partners.view-display-id-page_1 .field-name-field-material-type,
+.view-id-partners.view-display-id-page_1 .field-name-content-type,
+.view-id-partners.view-display-id-page_1 .field-name-field-no-of-pages,
+.view-id-partners.view-display-id-page_1 .field-name-field-author-s-,
+.view-id-partners.view-display-id-page_1 .field-name-author,
+.view-id-partners.view-display-id-page_1 .field-name-field-file,
+.view-id-partners.view-display-id-page_1 .views-field-field-image,
+.view-mode-teaser .field-name-field-cover-image,
+.view-mode-teaser .field-name-field-videoembed,
+.vocabulary-partners.view-mode-taxoteaser .field-name-field-image,
+.view-mode-search_result .field-name-field-videoembed,
+.view-mode-full img.shrinktheweb,
+.view-id-links img.shrinktheweb,
+.vocabulary-partners.view-mode-full .field-name-field-image {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032226}}
+.field-name-ds-user-picture img, .view-mode-search_result .field-name-cover-thumbnail img,
+.view-mode-search_result .field-name-field-cover-image img,
+.view-mode-search_result .field-name-field-material-type img,
+.view-mode-search_result .field-name-content-type img,
+.view-mode-search_result .field-name-field-no-of-pages img,
+.view-mode-search_result .field-name-field-author-s- img,
+.view-mode-search_result .field-name-author img,
+.view-mode-search_result .field-name-field-file img,
+.view-mode-search_result .views-field-field-image img, .view-mode-teaser .field-name-cover-thumbnail img,
+.view-mode-teaser .field-name-field-cover-image img,
+.view-mode-teaser .field-name-field-material-type img,
+.view-mode-teaser .field-name-content-type img,
+.view-mode-teaser .field-name-field-no-of-pages img,
+.view-mode-teaser .field-name-field-author-s- img,
+.view-mode-teaser .field-name-author img,
+.view-mode-teaser .field-name-field-file img,
+.view-mode-teaser .views-field-field-image img,
+.view-id-partners.view-display-id-page_1 .field-name-cover-thumbnail img,
+.view-id-partners.view-display-id-page_1 .field-name-field-cover-image img,
+.view-id-partners.view-display-id-page_1 .field-name-field-material-type img,
+.view-id-partners.view-display-id-page_1 .field-name-content-type img,
+.view-id-partners.view-display-id-page_1 .field-name-field-no-of-pages img,
+.view-id-partners.view-display-id-page_1 .field-name-field-author-s- img,
+.view-id-partners.view-display-id-page_1 .field-name-author img,
+.view-id-partners.view-display-id-page_1 .field-name-field-file img,
+.view-id-partners.view-display-id-page_1 .views-field-field-image img,
+.view-mode-teaser .field-name-field-cover-image img,
+.view-mode-teaser .field-name-field-videoembed img,
+.vocabulary-partners.view-mode-taxoteaser .field-name-field-image img,
+.view-mode-search_result .field-name-field-videoembed img,
+.view-mode-full img.shrinktheweb img,
+.view-id-links img.shrinktheweb img,
+.vocabulary-partners.view-mode-full .field-name-field-image img {
+  border: solid 1px #f5f5f5;
+}
+
+/* Cover images */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032234}}
+.field-name-cover-medium img {
+  border: solid 1px #f5f5f5;
+}
+
+/* Search results */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032255}}
+.view-mode-search_result .field-name-field-material-type,
+.view-mode-search_result .field-name-content-type,
+.view-mode-search_result .field-name-field-no-of-pages,
+.view-mode-search_result .field-name-field-author-s-,
+.view-mode-search_result .field-name-author, .view-mode-teaser .field-name-field-material-type,
+.view-mode-teaser .field-name-content-type,
+.view-mode-teaser .field-name-field-no-of-pages,
+.view-mode-teaser .field-name-field-author-s-,
+.view-mode-teaser .field-name-author,
+.view-id-partners.view-display-id-page_1 .field-name-field-material-type,
+.view-id-partners.view-display-id-page_1 .field-name-content-type,
+.view-id-partners.view-display-id-page_1 .field-name-field-no-of-pages,
+.view-id-partners.view-display-id-page_1 .field-name-field-author-s-,
+.view-id-partners.view-display-id-page_1 .field-name-author {
+  width: auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032265}}
+.view-mode-search_result .field-name-title h2, .view-mode-teaser .field-name-title h2 {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032270}}
+.field-type-taxonomy-term-reference ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032274}}
+.field-type-taxonomy-term-reference ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Image caption, material type overlays, yellow boxes */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032282}}
+.image-caption {
+  text-align: center;
+  margin: auto;
+  color: darkgrey;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032288}}
+.caption,
+.view-id-city_cases {
+  float: left;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032294}}
+.box, #block-block-8,
+#block-views-home-block-2, .caption p,
+.view-id-city_cases .flex-caption a,
+.view-id-city_cases .views-field-name a,
+.view-id-city_cases .views-field-name-i18n a {
+  padding: 0.5em 10px !important;
+  width: auto;
+  background: rgba(239, 161, 24, 0.75);
+  color: #fff !important;
+  display: inline-block;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032303}}
+#block-block-8,
+#block-views-home-block-2 {
+  background: #efa118;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032307}}
+#block-block-8 a,
+#block-views-home-block-2 a {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032312}}
+.caption p,
+.view-id-city_cases .flex-caption a,
+.view-id-city_cases .views-field-name a,
+.view-id-city_cases .views-field-name-i18n a {
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032322}}
+.view-id-city_cases .flex-caption a {
+  top: auto;
+  bottom: 0;
+  height: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032328}}
+.view-mode-grid .box, .view-mode-grid #block-block-8,
+.view-mode-grid #block-views-home-block-2, .view-mode-grid .caption p, .caption .view-mode-grid p,
+.view-mode-grid .view-id-city_cases .flex-caption a,
+.view-id-city_cases .flex-caption .view-mode-grid a,
+.view-mode-grid .view-id-city_cases .views-field-name a,
+.view-id-city_cases .views-field-name .view-mode-grid a,
+.view-mode-grid .view-id-city_cases .views-field-name-i18n a,
+.view-id-city_cases .views-field-name-i18n .view-mode-grid a {
+  top: -2.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032332}}
+.view-mode-grid .field-name-title {
+  margin-top: -2.5em;
+  min-height: 6em;
+  /*4-deck titles*/
+}
+
+/* Tagclouds */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032339}}
+.tagclouds-term, .more-link {
+  padding: 4px 8px;
+  border: solid 1px #ebebeb;
+  background-color: #ebebeb;
+  line-height: normal;
+  display: inline-block;
+  margin: 3px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032346}}
+.tagclouds-term a, .more-link a {
+  text-decoration: none;
+}
+
+/* Sliders */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032355}}
+.view-id-partners.view-display-id-block_1 .flexslider .slides > li {
+  margin: 10px 33px;
+  max-width: 120px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032360}}
+ul.slides {
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032364}}
+.flex-control-nav {
+  width: 99%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032366}}
+.flex-control-nav li {
+  margin: 0 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032371}}
+.flexslider .flex-direction-nav a {
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032373}}
+.flexslider .flex-direction-nav a:link, .flexslider .flex-direction-nav a:visited, .flexslider .flex-direction-nav a:hover, .flexslider .flex-direction-nav a:focus, .flexslider .flex-direction-nav a:before {
+  color: #DD8800;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032382}}
+.view-id-city_cases .flexslider {
+  border: none;
+}
+
+/* Mobile sliding menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032388}}
+.mmenu-nav.mm-basic {
+  z-index: 10000;
+  background: white;
+  color: #0580A9;
+  text-shadow: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032397}}
+.mmenu-nav.mm-basic > .mm-header,
+.mmenu-nav.mm-basic > .mm-list li.mmenu-expanded .mmenu-block-expanded {
+  color: #0580A9;
+  background: white;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032404}}
+.mmenu-nav.mm-basic > .mm-header .mm-title {
+  font-size: 1.5em;
+  padding: 0 10%;
+  width: 80%;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032411}}
+.mmenu-nav.mm-basic > .mm-list li {
+  border-top: none;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032417}}
+#block-menu-menu-footer-menu ul {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032421}}
+#block-menu-menu-footer-menu li {
+  float: left;
+  width: 48%;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+/* Views rows */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032430}}
+.views-row {
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032434}}
+.view-mode-grid h2 {
+  font-size: 1.1em;
+}
+
+/* FacetAPI */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032442}}
+ul.facetapi-facetapi-checkbox-links li {
+  display: block;
+  margin-left: 0;
+  padding: 0;
+}
+
+/* Standfirst */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032452}}
+.field-name-field-standfirst, .node-type-blog .field-name-field-standfirst, .view-mode-grid .field-name-field-standfirst, .view-mode-teaser .field-name-field-standfirst {
+  color: #555;
+  font-size: 1.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032457}}
+.node-type-blog .field-name-field-standfirst {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032463}}
+.view-mode-grid .field-name-field-standfirst, .view-mode-teaser .field-name-field-standfirst {
+  font-size: 1em;
+  color: black;
+}
+
+/* Survey in Leaderboard */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000032472}}
+#block-block-11 {
+  display: inline-block;
+  float: right;
+  margin: 0.25em;
+  padding: 10px 0;
+  z-index: 1;
+  position: relative;
+}
+
+/*# sourceMappingURL=global.styles.css.map */
