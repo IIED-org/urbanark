@@ -1824,7 +1824,7 @@ button, input[type="reset"], input[type="submit"], input[type="button"] {
 	width: 75%;
 }
 
-input[type="search"], input[type="text"] {
+#search-api-page-search-form-default input[type="text"] {
 	@extend #edit-search;
 	text-indent: 9px;
 	width: 10px;

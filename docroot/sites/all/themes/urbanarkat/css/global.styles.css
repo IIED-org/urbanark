@@ -1248,7 +1248,7 @@ button, input[type="reset"], input[type="submit"], input[type="button"] {
 
 /* Search box */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031820}}
-#edit-search, input[type="search"], input[type="text"] {
+#edit-search, #search-api-page-search-form-default input[type="text"] {
   background: #f5f5f5 url(../images/search-icon.png) no-repeat center right;
   border: solid 1px #ccc;
   padding-right: 18px;
@@ -1256,14 +1256,14 @@ button, input[type="reset"], input[type="submit"], input[type="button"] {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031827}}
-input[type="search"], input[type="text"] {
+#search-api-page-search-form-default input[type="text"] {
   text-indent: 9px;
   width: 10px;
   transition: width 0.5s ease-out;
   float: right;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/global\.styles\.scss}line{font-family:\000031833}}
-input[type="search"]:focus, input[type="text"]:focus {
+#search-api-page-search-form-default input[type="text"]:focus {
   width: 240px;
   transition: all 0.5s ease-out;
   position: relative;
