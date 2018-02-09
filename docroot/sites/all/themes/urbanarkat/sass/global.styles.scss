@@ -742,6 +742,14 @@ ul.sf-menu {
   padding: 0 10px;
 }
 
+/* 
+ * Submenu background
+ */
+
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+    background: url(../images/shadow.png) no-repeat right bottom;
+}
+
 
 /* =============================================================================
  *   Menu Toggles
