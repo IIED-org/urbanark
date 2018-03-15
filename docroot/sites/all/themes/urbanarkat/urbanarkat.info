@@ -75,7 +75,7 @@ core = "7.x"
   ; ie_scripts[lte IE 8][] = scripts/my-script.js
 
 scripts[] = scripts/urbanarkat.js
-scripts[] = scripts/surveymonkey.js
+;scripts[] = scripts/surveymonkey.js
 
 ;----------// Regions
 

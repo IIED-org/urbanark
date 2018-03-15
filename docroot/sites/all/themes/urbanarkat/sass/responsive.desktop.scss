@@ -43,8 +43,10 @@ table.views-view-grid.cols-6 td { width: 13%; }
 	padding-right:17px;
 }
 
-#block-system-main-menu a {
-  font-size: 85% !important;
+#block-system-main-menu, #block-superfish-1, #block-superfish-2 {
+	a {
+  	font-size: 85% !important;
+	}
 }
 
 .text {
