@@ -86,4 +86,24 @@ table.views-view-grid.cols-6 td {
   padding-left: 20px;
 }
 
+/* Cookie compliance banner */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000369}}
+#sliding-popup .popup-content {
+  max-width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000371}}
+#sliding-popup .popup-content #popup-text {
+  max-width: 75%;
+  line-height: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000375}}
+#sliding-popup .popup-content #popup-buttons {
+  margin-bottom: 0;
+  max-width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chris\/Sites\/devdesktop\/urbanark-dev\/docroot\/sites\/all\/themes\/urbanarkat\/sass\/responsive\.desktop\.scss}line{font-family:\0000378}}
+#sliding-popup .popup-content #popup-buttons button {
+  margin-top: .5em;
+}
+
 /*# sourceMappingURL=responsive.desktop.css.map */
