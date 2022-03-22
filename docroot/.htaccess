@@ -61,12 +61,6 @@ DirectoryIndex index.php index.html index.htm
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
-  # Set protocol to https on prod
-  RewriteCond %{HTTPS} off
-  RewriteCond %{HTTP:X-Forwarded-Proto} !https
-  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod
-  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.
@@ -100,12 +94,10 @@ DirectoryIndex index.php index.html index.htm
   # To redirect all users to access the site WITH the 'www.' prefix,
   # (http://example.com/... will be redirected to http://www.example.com/...)
   # uncomment the following:
-
-  RewriteCond %{HTTP_HOST} .
-  RewriteCond %{ENV:AH_SITE_ENVIRONMENT} prod
-  RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
+  # RewriteCond %{HTTP_HOST} .
+  # RewriteCond %{HTTP_HOST} !^www\. [NC]
+  # RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  #
   # To redirect all users to access the site WITHOUT the 'www.' prefix,
   # (http://www.example.com/... will be redirected to http://example.com/...)
   # uncomment the following:
@@ -142,9 +134,9 @@ DirectoryIndex index.php index.html index.htm
     RewriteCond %{REQUEST_FILENAME}\.gz -s
     RewriteRule ^(.*)\.js $1\.js\.gz [QSA]
 
-    # Serve correct content types, and prevent mod_deflate double gzip.
-    RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1]
-    RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1]
+    # Serve correct content types, and prevent double compression.
+    RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1,E=no-brotli:1]
+    RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1,E=no-brotli:1]
 
     <FilesMatch "(\.js\.gz|\.css\.gz)$">
       # Serve correct encoding type.
@@ -155,8 +147,10 @@ DirectoryIndex index.php index.html index.htm
   </IfModule>
 </IfModule>
 
-# Add headers to all responses.
+# Various header fixes.
 <IfModule mod_headers.c>
   # Disable content sniffing, since it's an attack vector.
   Header always set X-Content-Type-Options nosniff
+  # Disable Proxy header, since it's an attack vector.
+  RequestHeader unset Proxy
 </IfModule>
