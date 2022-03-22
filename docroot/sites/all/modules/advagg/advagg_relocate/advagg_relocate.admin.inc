@@ -70,38 +70,70 @@ function advagg_relocate_admin_settings_form() {
     '#default_value' => variable_get('advagg_relocate_js_ttl', ADVAGG_RELOCATE_JS_TTL),
     '#description' => t('As an example the Minimum needed to not get penalized by Google PageSpeed Insights is <a href="@url">1 week</a>.', array('@url' => 'https://developers.google.com/speed/docs/insights/LeverageBrowserCaching')),
   );
-  if (module_exists('googleanalytics')) {
-    $form['global_container']['js']['advagg_relocate_js_ga_local'] = array(
-      '#type' => 'checkbox',
-      '#title' => t('Move inline google analytics inline analytics.js loader code to drupal_add_js'),
-      '#default_value' => variable_get('advagg_relocate_js_ga_local', ADVAGG_RELOCATE_JS_GA_LOCAL),
-      '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
-      '#recommended_value' => TRUE,
-      '#states' => array(
-        'invisible' => array(
-          '#edit-advagg-relocate-js' => array('checked' => FALSE),
-        ),
+  $form['global_container']['js']['advagg_relocate_js_ga_local'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Move inline google analytics inline analytics.js loader code to drupal_add_js'),
+    '#default_value' => variable_get('advagg_relocate_js_ga_local', ADVAGG_RELOCATE_JS_GA_LOCAL),
+    '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
+    '#recommended_value' => TRUE,
+    '#states' => array(
+      'invisible' => array(
+        '#edit-advagg-relocate-js' => array('checked' => FALSE),
       ),
-    );
-  }
-  if (module_exists('piwik')) {
-    $form['global_container']['js']['advagg_relocate_js_piwik_local'] = array(
-      '#type' => 'checkbox',
-      '#title' => t('Move inline piwik.js loader code to drupal_add_js'),
-      '#default_value' => variable_get('advagg_relocate_js_piwik_local', ADVAGG_RELOCATE_JS_PIWIK_LOCAL),
-      '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
-      '#recommended_value' => TRUE,
-      '#states' => array(
-        'invisible' => array(
-          '#edit-advagg-relocate-js' => array('checked' => FALSE),
-        ),
+    ),
+  );
+  $form['global_container']['js']['advagg_relocate_js_piwik_local'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Move inline piwik.js loader code to drupal_add_js'),
+    '#default_value' => variable_get('advagg_relocate_js_piwik_local', ADVAGG_RELOCATE_JS_PIWIK_LOCAL),
+    '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
+    '#recommended_value' => TRUE,
+    '#states' => array(
+      'invisible' => array(
+        '#edit-advagg-relocate-js' => array('checked' => FALSE),
       ),
-    );
-  }
+    ),
+  );
   $form['global_container']['js']['advagg_relocate_js_gtm_local'] = array(
     '#type' => 'checkbox',
     '#title' => t('Move inline google tag manager inline gtm.js loader code to drupal_add_js'),
     '#default_value' => variable_get('advagg_relocate_js_gtm_local', ADVAGG_RELOCATE_JS_GTM_LOCAL),
+    '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
+    '#recommended_value' => TRUE,
+    '#states' => array(
+      'invisible' => array(
+        '#edit-advagg-relocate-js' => array('checked' => FALSE),
+      ),
+    ),
+  );
+  $form['global_container']['js']['advagg_relocate_js_perfectaudience_local'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Move inline perfectaudience loader code to drupal_add_js'),
+    '#default_value' => variable_get('advagg_relocate_js_perfectaudience_local', ADVAGG_RELOCATE_JS_PERFECTAUDIENCE_LOCAL),
+    '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
+    '#recommended_value' => TRUE,
+    '#states' => array(
+      'invisible' => array(
+        '#edit-advagg-relocate-js' => array('checked' => FALSE),
+      ),
+    ),
+  );
+  $form['global_container']['js']['advagg_relocate_js_twitter_uwt_local'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Move inline twitter loader code to drupal_add_js'),
+    '#default_value' => variable_get('advagg_relocate_js_twitter_uwt_local', ADVAGG_RELOCATE_JS_TWITTER_UWT_LOCAL),
+    '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
+    '#recommended_value' => TRUE,
+    '#states' => array(
+      'invisible' => array(
+        '#edit-advagg-relocate-js' => array('checked' => FALSE),
+      ),
+    ),
+  );
+  $form['global_container']['js']['advagg_relocate_js_linkedin_insight_local'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Move inline linkedin insight loader code to drupal_add_js'),
+    '#default_value' => variable_get('advagg_relocate_js_linkedin_insight_local', ADVAGG_RELOCATE_JS_LINKEDIN_INSIGHT_LOCAL),
     '#description' => t('If the inline loader code is included in the drupal_add_js array it can then be loaded locally if the above checkbox is checked.'),
     '#recommended_value' => TRUE,
     '#states' => array(
@@ -174,7 +206,6 @@ function advagg_relocate_admin_settings_form() {
     '#type' => 'fieldset',
     '#title' => t('CSS Settings'),
   );
-  $files_with_import = advagg_relocate_admin_list_files_with_import();
   $form['global_container']['css']['advagg_relocate_css'] = array(
     '#type' => 'checkbox',
     '#title' => t('Move external CSS files to a local CSS file'),
@@ -244,6 +275,8 @@ function advagg_relocate_admin_settings_form() {
     'woff2' => 'woff2',
     'woff' => 'woff',
     'ttf' => 'ttf',
+    'eot' => 0,
+    'svg' => 0,
   );
   $form['global_container']['css']['fonts']['advagg_relocate_css_inline_import_browsers'] = array(
     '#type' => 'checkboxes',
@@ -278,11 +311,19 @@ function advagg_relocate_admin_settings_form() {
   );
 
   $advagg_relocate_css_file_settings = variable_get('advagg_relocate_css_file_settings', array());
+  $files_with_import = advagg_relocate_admin_list_files_with_import();
+
   if (!empty($files_with_import)) {
     $domains = explode("\n", $advagg_relocate_css_font_domains);
     foreach ($files_with_import as $filename => $references) {
-      $form_api_filename = str_replace(array('/', '.'), array('__', '--'), $filename);
-      $options = array();
+      // Convert filename to form api friendly name.
+      $form_api_filename = str_replace(
+        array('/', '.', '=', '&', ' '),
+        array('__', '--', '_', '-', '-'),
+        $filename
+      );
+
+      // Settings for the all in filename checkbox.
       $default_value = TRUE;
       if (isset($advagg_relocate_css_file_settings['all:' . $form_api_filename])) {
         $default_value = $advagg_relocate_css_file_settings['all:' . $form_api_filename];
@@ -290,10 +331,12 @@ function advagg_relocate_admin_settings_form() {
       $form['global_container']['css']['fonts']['per_file_settings']['advagg_relocate_css_file_settings_all_' . $form_api_filename] = array(
         '#type' => 'checkbox',
         '#default_value' => $default_value,
+        '#recommended_value' => TRUE,
         '#title' => t('All in @filename', array('@filename' => $filename)),
       );
       $form_api_html_filename = str_replace(array('__', '--', '_'), '-', $form_api_filename);
 
+      // Fieldset for the checkboxes.
       $form['global_container']['css']['fonts']['per_file_settings'][$form_api_filename] = array(
         '#type' => 'fieldset',
         '#title' => t('@filename', array('@filename' => $filename)),
@@ -303,8 +346,11 @@ function advagg_relocate_admin_settings_form() {
           ),
         ),
       );
+
+      // Build options and the default enabled settings.
       $default_values = array();
-      foreach ($references[0] as $key => $value) {
+      $options = array();
+      foreach ($references as $key => $value) {
         $include = FALSE;
         foreach ($domains as $domain) {
           if (strpos($value, $domain) !== FALSE) {
@@ -313,11 +359,15 @@ function advagg_relocate_admin_settings_form() {
           }
         }
         if ($include) {
-          $options[$references[1][$key]] = $value;
-          $default_values[$references[1][$key]] = $references[1][$key];
+          $options[$key] = $value;
+          $default_values[$key] = $key;
         }
       }
-      if (isset($advagg_relocate_css_file_settings[$form_api_filename])) {
+
+      // Apply saved settings to the checkboxes.
+      if (isset($advagg_relocate_css_file_settings[$form_api_filename])
+        && is_array($advagg_relocate_css_file_settings[$form_api_filename])
+      ) {
         $default_values = $advagg_relocate_css_file_settings[$form_api_filename];
       }
       $form['global_container']['css']['fonts']['per_file_settings'][$form_api_filename]['advagg_relocate_css_file_settings_' . $form_api_filename] = array(
@@ -325,6 +375,12 @@ function advagg_relocate_admin_settings_form() {
         '#options' => $options,
         '#default_value' => $default_values,
       );
+
+      // No viable options for this file; remove fieldset and checkboxes.
+      if (empty($options)) {
+        unset($form['global_container']['css']['fonts']['per_file_settings'][$form_api_filename]);
+        unset($form['global_container']['css']['fonts']['per_file_settings']['advagg_relocate_css_file_settings_all_' . $form_api_filename]);
+      }
     }
   }
 
@@ -342,17 +398,31 @@ function advagg_relocate_admin_settings_form() {
  * @ingroup advagg_forms_callback
  */
 function advagg_relocate_admin_settings_form_submit($form, &$form_state) {
+  // Work around PHP bug with $_POST not containing all the data.
+  $alt_post = array();
+  $input = rawurldecode(file_get_contents('php://input'));
+  parse_str($input, $alt_post);
+  $alt_post = drupal_json_decode(str_replace(' ', '+', drupal_json_encode($alt_post)));
+  $diff = advagg_diff_multi($_POST, $alt_post);
+  if (!empty($diff)) {
+    foreach ($diff as $k => $v) {
+      if (isset($form_state['values'][$k])) {
+        $form_state['values'][$k] = $v;
+      }
+    }
+  }
 
   // Reset this form to defaults or recommended values; also show what changed.
   advagg_set_admin_form_defaults_recommended($form_state, 'advagg_relocate_admin_mode');
 
   // Get settings that start with advagg_relocate_css_file_settings.
   if (defined('PHP_VERSION_ID') && PHP_VERSION_ID >= 50600) {
-    $vars = array_filter($form_state['values'], '_advagg_relocate_admin_is_file_settings', ARRAY_FILTER_USE_KEY);
+    $vars = array_filter($form_state['values'], '_advagg_relocate_admin_is_css_file_settings', ARRAY_FILTER_USE_KEY);
   }
   else {
-    $vars = array_intersect_key($form_state['values'], array_flip(array_filter(array_keys($form_state['values']), '_advagg_relocate_admin_is_file_settings')));
+    $vars = array_intersect_key($form_state['values'], array_flip(array_filter(array_keys($form_state['values']), '_advagg_relocate_admin_is_css_file_settings')));
   }
+
   // Unset found values.
   foreach ($vars as $key => $value) {
     if (isset($form_state['values'][$key])) {
@@ -367,14 +437,13 @@ function advagg_relocate_admin_settings_form_submit($form, &$form_state) {
     }
   }
 
+  // Save under one variable.
   $saved_values = array();
   foreach ($vars as $key => $value) {
     $key = str_replace('advagg_relocate_css_file_settings_all_', 'all:', $key);
     $key = str_replace('advagg_relocate_css_file_settings_', '', $key);
     $saved_values[$key] = $value;
   }
-
-  // Save under one variable.
   $form_state['values']['advagg_relocate_css_file_settings'] = $saved_values;
 
   // Clear caches.
@@ -390,7 +459,7 @@ function advagg_relocate_admin_settings_form_submit($form, &$form_state) {
  * @return bool
  *   TRUE if the input string starts with 'advagg_relocate_css_file_settings'.
  */
-function _advagg_relocate_admin_is_file_settings($key) {
+function _advagg_relocate_admin_is_css_file_settings($key) {
   return strpos($key, 'advagg_relocate_css_file_settings') === 0;
 }
 
@@ -431,7 +500,13 @@ function advagg_relocate_admin_list_files_with_import(array $files = array()) {
       $matches = array();
       preg_match_all('%@import\s*+(?:url\(\s*+)?+[\'"]?+((?:http:\/\/|https:\/\/|\/\/)(?:[^\'"()\s]++))[\'"]?+\s*+\)?+\s*+;%i', $file_contents, $matches);
       if (!empty($matches[0])) {
-        $files_with_import_statements[$file] = $matches;
+        $output = array();
+        foreach ($matches[1] as $k => $v) {
+          $v = str_replace(array('=', '&', ' '), array('_', '-', '-'), $v);
+          $output[$v] = $matches[0][$k];
+        }
+
+        $files_with_import_statements[$file] = $output;
       }
     }
   }

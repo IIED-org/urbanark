@@ -17,14 +17,9 @@ function advagg_critical_css_admin_settings_form() {
   advagg_display_message_if_requirements_not_met();
 
   $form = array();
-  $query = db_select('advagg_critical_css', 'acc')
-    ->fields('acc')
-    ->comment('Query called from ' . __FUNCTION__ . '()');
-  $results = $query->execute();
 
   $default_theme = variable_get('theme_default', 'bartik');
   $global_theme = $GLOBALS['theme'];
-
   $themes = array_keys(list_themes());
 
   $form['#attached']['css'][] = array(
@@ -53,13 +48,13 @@ function advagg_critical_css_admin_settings_form() {
   );
   $type_options = array(
     0 => t('Disabled'),
-    2 => t('current_path()'),
-    8 => t('Node-Type'),
+    2 => t('URL'),
+    8 => t('Node Type'),
   );
   $form['add_item']['type'] = array(
     '#type' => 'select',
     '#title' => t('Type of lookup'),
-    '#default_value' => 0,
+    '#default_value' => 2,
     '#options' => $type_options,
   );
 
@@ -93,8 +88,9 @@ function advagg_critical_css_admin_settings_form() {
     ),
   );
   $form['add_item']['lookup_container_current_path']['current_path'] = array(
-    '#markup' => t('%front is the front page; <a href="@current_path">current_path()</a> (Example: node/26419). This page is: %here', array(
+    '#markup' => t('%front is the front page; can use internal URLs like %internal or an alias like %here', array(
       '%front' => '<front>',
+      '%internal' => 'node/2',
       '%here' => current_path(),
     )),
   );
@@ -136,6 +132,11 @@ function advagg_critical_css_admin_settings_form() {
     '#default_value' => '',
   );
 
+  // Lookup saved data.
+  $query = db_select('advagg_critical_css', 'acc')
+    ->fields('acc')
+    ->comment('Query called from ' . __FUNCTION__ . '()');
+  $results = $query->execute();
   // Put results into array.
   $counter = 0;
   foreach ($results as $row) {
@@ -163,17 +164,44 @@ function advagg_critical_css_admin_settings_form() {
     );
 
     // Add fieldset.
+    $filename = advagg_url_to_filename($row['lookup'], FALSE);
+    $base = drupal_get_path('theme', $row['theme']) . "/critical-css/{$row['user']}/";
+    if ($row['type'] == 2) {
+      $base .= "urls/$filename";
+    }
+    elseif ($row['type'] == 8) {
+      $base .= "type/$filename";
+    }
+    else {
+      $base = '';
+    }
     $form['existing_items'][$counter] += array(
       '#type' => 'fieldset',
       '#collapsible' => TRUE,
       '#collapsed' => TRUE,
-      '#title' => t('@theme @type @user @lookup', array(
+      '#title' => t('@type @theme @user @lookup', array(
         '@theme' => $row['theme'],
         '@type' => $type_options[$row['type']],
         '@user' => $row['user'],
         '@lookup' => $row['lookup'],
       )),
     );
+
+    if (!empty($base)) {
+      $form['existing_items'][$counter]['#description'] = t('If you wish to store this configuration in a file<br>Critical CSS: <code>@css</code>', array(
+        '@css' => "$base.css",
+      ));
+      if (!empty($row['dns'])) {
+        $form['existing_items'][$counter]['#description'] .= t('<br>Hostnames: <code>@dns</code>', array(
+          '@dns' => "$base.dns",
+        ));
+      }
+      if (!empty($row['pre'])) {
+        $form['existing_items'][$counter]['#description'] .= t('<br>Preload: <code>@pre</code>', array(
+          '@pre' => "$base.pre",
+        ));
+      }
+    }
   }
 
   // Add top level fieldsets.
@@ -190,6 +218,13 @@ function advagg_critical_css_admin_settings_form() {
     );
   }
 
+  $form['advagg_critical_css_selector_blacklist'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Selector Blacklist'),
+    '#description' => t('Selectors to exclude. Enter one per line. Useful for things like google ads.'),
+    '#default_value' => variable_get('advagg_critical_css_selector_blacklist', ''),
+  );
+
   // Clear the cache bins on submit.
   $form['#submit'][] = 'advagg_critical_css_admin_settings_form_submit';
 
@@ -198,6 +233,11 @@ function advagg_critical_css_admin_settings_form() {
   $form['actions']['submit'] = array(
     '#type' => 'submit',
     '#value' => t('Save configuration'),
+  );
+  $form['actions']['disable'] = array(
+    '#type' => 'submit',
+    '#value' => t('Disable All From Database'),
+    '#submit' => array('advagg_critical_css_admin_settings_form_submit_disable'),
   );
   if (!empty($_POST) && form_get_errors()) {
     drupal_set_message(t('The settings have not been saved because of the errors.'), 'error');
@@ -216,9 +256,45 @@ function advagg_critical_css_admin_settings_form() {
  *
  * @ingroup advagg_forms_callback
  */
+function advagg_critical_css_admin_settings_form_submit_disable($form, &$form_state) {
+  $query = db_select('advagg_critical_css', 'acc')
+    ->fields('acc')
+    ->comment('Query called from ' . __FUNCTION__ . '()');
+  $results = $query->execute();
+  // Put results into array.
+  $insert_update = array();
+  foreach ($results as $row) {
+    $row = (array) $row;
+    $new_row = $row;
+    $new_row['type'] = 0;
+    $insert_update[] = array(
+      $row,
+      $new_row,
+    );
+  }
+  advagg_critical_css_table_insert_update($insert_update);
+}
+
+/**
+ * Submit callback, process the advagg_critical_css form.
+ *
+ * Also clear out the advagg cache bin.
+ *
+ * @ingroup advagg_forms_callback
+ */
 function advagg_critical_css_admin_settings_form_submit($form, &$form_state) {
   // Exclude unnecessary elements.
   form_state_values_clean($form_state);
+
+  // Save advagg_critical_css_selector_blacklist.
+  if (!isset($form_state['values']['advagg_critical_css_selector_blacklist'])) {
+    $form_state['values']['advagg_critical_css_selector_blacklist'] = '';
+  }
+  $advagg_critical_css_selector_blacklist = variable_get('advagg_critical_css_selector_blacklist', '');
+  if ($form_state['values']['advagg_critical_css_selector_blacklist'] !== $advagg_critical_css_selector_blacklist) {
+    variable_set('advagg_critical_css_selector_blacklist', $form_state['values']['advagg_critical_css_selector_blacklist']);
+  }
+  unset($form_state['values']['advagg_critical_css_selector_blacklist']);
 
   // Rearrange form values into key value pairs.
   $items = advagg_critical_css_get_rows_from_form($form_state['values']);
@@ -228,7 +304,7 @@ function advagg_critical_css_admin_settings_form_submit($form, &$form_state) {
   $default_items = advagg_critical_css_get_rows_from_form($default_values);
 
   // Get diff, see what items need to be saved.
-  $diff = advagg_critical_css_diff_multi($default_items, $items);
+  $diff = advagg_diff_multi($default_items, $items);
   $changed_items = array();
   foreach ($diff as $key => $values) {
     $changed_items[$key] = $items[$key];
@@ -302,40 +378,4 @@ function advagg_critical_css_get_db_operations_arrays(array $items, array $old_i
     }
   }
   return array($insert_update, $delete);
-}
-
-/**
- * Given a list of items see what ones need to be inserted/updated or deleted.
- *
- * @param array $defaults
- *   Array of default values, representing a row in the db.
- * @param mixed $new_values
- *   Array of edited values, representing a row in the db.
- *
- * @return array
- *   Nested array strucutre; only the diff.
- */
-function advagg_critical_css_diff_multi(array $defaults, $new_values) {
-  $result = array();
-
-  foreach ($defaults as $key => $val) {
-    if (is_array($val) && isset($new_values[$key])) {
-      $tmp = advagg_critical_css_diff_multi($val, $new_values[$key]);
-      if ($tmp) {
-        $result[$key] = $tmp;
-      }
-    }
-    elseif (!isset($new_values[$key])) {
-      $result[$key] = NULL;
-    }
-    elseif ($val != $new_values[$key]) {
-      $result[$key] = $new_values[$key];
-    }
-    if (isset($new_values[$key])) {
-      unset($new_values[$key]);
-    }
-  }
-
-  $result = $result + $new_values;
-  return $result;
 }
