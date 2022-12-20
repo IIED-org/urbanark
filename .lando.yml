@@ -4,4 +4,12 @@ config:
   acli_version: latest
   ah_application_uuid: 549be506-8243-4c10-b1f7-18069b8bee3b
   ah_site_group: urbanark
-  php: '7.4'
+  php: '8.1'
+  drush: '8.4.10'
+services:
+  appserver:
+    webroot: docroot
+    overrides:
+      environment:
+        DRUSH_OPTIONS_ROOT: '/app/docroot'
+        DRUSH_OPTIONS_URI: 'https://urbanark.lndo.site'

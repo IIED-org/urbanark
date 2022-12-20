@@ -1,0 +1,118 @@
+@@ -115,11 +122,11 @@
+      * @var array
+      */
+     protected $options;
+-
++    
+     /**
+      * These characters are used to define strings.
+      */
+-    protected $stringDelimiters = array("'", '"', '`');
++    protected $stringDelimiters = ['\'' => true, '"' => true, '`' => true];
+ 
+     /**
+      * Contains the default options for minification. This array is merged with
+@@ -128,7 +135,7 @@
+      *
+      * @var array
+      */
+-    protected static $defaultOptions = array('flaggedComments' => true);
++    protected static $defaultOptions = ['flaggedComments' => true];
+ 
+     /**
+      * Contains lock ids which are used to replace certain code patterns and
+@@ -136,7 +143,7 @@
+      *
+      * @var array
+      */
+-    protected $locks = array();
++    protected $locks = [];
+ 
+     /**
+      * Takes a string containing javascript and removes unneeded characters in
+@@ -146,7 +153,7 @@
+      * @param  array       $options Various runtime options in an associative array
+      * @throws \Exception
+      * @return bool|string
+-     */
++     */  
+     public static function minify($js, $options = array())
+     {
+         try {
+@@ -199,9 +206,7 @@
+     protected function initialize($js, $options)
+     {
+         $this->options = array_merge(static::$defaultOptions, $options);
+-        $js = str_replace("\r\n", "\n", $js);
+-        $js = str_replace('/**/', '', $js);
+-        $this->input = str_replace("\r", "\n", $js);
++        $this->input = str_replace(["\r\n", '/**/', "\r"], ["\n", "", "\n"], $js);   
+ 
+         // We add a newline to the end of the script to make it easier to deal
+         // with comments at the bottom of the script- this prevents the unclosed
+@@ -208,7 +225,7 @@
+                 // new lines
+                 case "\n":
+                     // if the next line is something that can't stand alone preserve the newline
+-                    if ($this->b && strpos('(-+[@', $this->b) !== false) {
++                    if ($this->b !== false && isset($this->noNewLineCharacters[$this->b])) {
+                         echo $this->a;
+                         $this->saveString();
+                         break;
+@@ -302,7 +319,7 @@
+ 
+             // Otherwise we start pulling from the input.
+         } else {
+-            $char = substr($this->input, $this->index, 1);
++            $char = $this->index < $this->len ? $this->input[$this->index] : false;
+ 
+             // If the next character doesn't exist return false.
+             if (isset($char) && $char === false) {
+@@ -315,7 +332,7 @@
+ 
+         // Normalize all whitespace except for the newline character into a
+         // standard space.
+-        if ($char !== "\n" && ord($char) < 32) {
++        if ($char !== "\n" && $char < "\x20") {
+             return ' ';
+         }
+ 
+@@ -366,7 +383,7 @@
+      */
+     protected function processOneLineComments($startIndex)
+     {
+-        $thirdCommentString = substr($this->input, $this->index, 1);
++        $thirdCommentString = $this->index < $this->len ? $this->input[$this->index] : false;
+ 
+         // kill rest of line
+         $this->getNext("\n");
+@@ -455,7 +472,7 @@
+         $this->index = $pos;
+ 
+         // Return the first character of that string.
+-        return substr($this->input, $this->index, 1);
++        return  $this->index < $this->len ? $this->input[$this->index] : false;
+     }
+ 
+     /**
+@@ -484,10 +501,9 @@
+         echo $this->a;
+ 
+         // Loop until the string is done
+-        while (true) {
++        while (($this->a = $this->getChar()) !== false) {
+ 
+             // Grab the very next character and load it into a
+-            $this->a = $this->getChar();
+ 
+             switch ($this->a) {
+ 
+@@ -586,7 +602,7 @@
+         /* lock things like <code>"asd" + ++x;</code> */
+         $lock = '"LOCK---' . crc32(time()) . '"';
+ 
+-        $matches = array();
++        $matches = [];
+         preg_match('/([+-])(\s+)([+-])/S', $js, $matches);
+         if (empty($matches)) {
+             return $js;
