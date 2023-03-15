@@ -1,7 +1,7 @@
 name: urbanark
 recipe: acquia
 config:
-  acli_version: latest
+  acli_version: 2.8.0
   ah_application_uuid: 549be506-8243-4c10-b1f7-18069b8bee3b
   ah_site_group: urbanark
   php: '8.1'
